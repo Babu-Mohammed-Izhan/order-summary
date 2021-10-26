@@ -58,8 +58,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(225, 100%, 98%);
-  padding: 0.5rem;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .music {
@@ -72,4 +71,24 @@ body {
 
 .price-plan {
   margin-bottom: 3px;
+}
+
+.price-per-year {
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+  margin: 20px 20px 20px 0px;
+}
+
+.proceed {
+  margin: 2.2rem;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  border-style: none;
+  min-width: 100%;
+  min-height: 50px;
+  border-radius: 10px;
 }
