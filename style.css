@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,11 @@ body {
   justify-content: center;
   min-height: 100vh;
   flex-direction: column;
+  background: url("./images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .card {
@@ -17,4 +24,52 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.img-hero {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 450px;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.title {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.sub-title {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 1rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.music {
+  margin: 20px;
+}
+
+.price-desc {
+  margin-right: 5rem;
+}
+
+.price-plan {
+  margin-bottom: 3px;
 }
