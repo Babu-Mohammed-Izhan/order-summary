@@ -19,17 +19,28 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
+.card-wrapper {
+  min-width: 80vw;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+
 .card {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 15px;
+  max-width: 25em;
 }
 
 .img-hero {
-  border-radius: 20px 20px 0px 0px;
+  max-width: 100%;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .description {
@@ -45,6 +56,7 @@ body {
   color: hsl(223, 47%, 23%);
   font-size: 1.5em;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .sub-title {
@@ -59,6 +71,7 @@ body {
   justify-content: center;
   background-color: hsl(225, 100%, 98%);
   border-radius: 10px;
+  min-width: 100%;
 }
 
 .music {
@@ -84,11 +97,26 @@ body {
 }
 
 .proceed {
-  margin: 2.2rem;
+  cursor: pointer;
+  margin: 2.2rem 0rem 0rem 0rem;
   background-color: hsl(245, 75%, 52%);
   color: #fff;
   border-style: none;
   min-width: 100%;
   min-height: 50px;
   border-radius: 10px;
+}
+
+.cancel {
+  cursor: pointer;
+  background-color: #fff;
+  color: hsl(245, 75%, 52%);
+  border-style: none;
+  min-width: 100%;
+  min-height: 50px;
+  border-radius: 10px;
+}
+
+.attribution {
+  margin-top: 10rem;
 }
